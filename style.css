@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+}
+
+/* Le header */
+header {
+	background-image: radial-gradient(circle at center, #ccccff, #4444ff);
+	height: 60px;
+}
+header h1 {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0;
+}
+
+/* Corps */
+
+section div {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 49%;
+	margin: 0;
+}
+section div h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+/* footer */
+
+footer {
+	background-image: radial-gradient(circle at center, #ccccff, #4444ff);
+	height: 60px;
+}
+footer p {
+	text-align: center;
+	font-weight: bolder;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0;
+}
