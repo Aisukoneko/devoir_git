@@ -1,0 +1,1 @@
+Simple petite page faite pour l'exercice de l'activité 2 du cours "Gérer son code avec Git et GitHub" d'OpenClassrooms.
