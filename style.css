@@ -15,6 +15,11 @@ body {
 	margin: 0 auto;
 	background: linear-gradient(to right, rgb(20,20,20), rgb(100,100,200), rgb(20,20,20));
 }
+@media all and (max-width: 900px) {
+	.page {
+		width: auto;
+	}
+}
 .container_principal {
 	padding-bottom: 80px;
 }
@@ -38,6 +43,12 @@ section div {
 	box-sizing: border-box;
 	width: 49%;
 	margin: 0;
+}
+@media all and (max-width: 900px) {
+	section div {
+		display: block;
+		width: auto;
+	}
 }
 section div h2 {
 	text-align: center;
