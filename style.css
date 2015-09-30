@@ -1,10 +1,26 @@
+html,
+body {
+	height: 100%;
+}
 body {
 	margin: 0;
+	background: rgb(20,20,20);
+	color: #ddd;
 }
 
+.page {
+	min-height: 100%;
+	position: relative;
+	width: 900px;
+	margin: 0 auto;
+	background: linear-gradient(to right, rgb(20,20,20), rgb(100,100,200), rgb(20,20,20));
+}
+.container_principal {
+	padding-bottom: 80px;
+}
 /* Le header */
 header {
-	background-image: radial-gradient(circle at center, #ccccff, #4444ff);
+	background: linear-gradient(to right, rgb(20,20,20), rgb(100,100,200), rgb(20,20,20));
 	height: 60px;
 }
 header h1 {
@@ -27,12 +43,19 @@ section div h2 {
 	text-align: center;
 	text-decoration: underline;
 }
+section div p {
+	padding: 0 10px;
+}
 
 /* footer */
 
 footer {
-	background-image: radial-gradient(circle at center, #ccccff, #4444ff);
+	background: linear-gradient(to right, rgb(20,20,20), rgb(100,100,200), rgb(20,20,20));
 	height: 60px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 footer p {
 	text-align: center;
